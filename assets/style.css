@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #015298;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+}
+
+/* ---------- H1-H6 & P Elements ---------- */
+h2 {
+    color: var(--secondary-color);
+}
+
+/* -------------- Header -------------- */
+header {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    margin: 0;
+    padding: 15px 1%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+/* ----- NAV ----- */
+nav {
+    width: 100%;
+    margin: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    margin: 0 2%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+
+/* ---------- Main ---------- */
+main {
+    padding: 2%;
+}
+
+section {
+    min-height: 300px;
+}
+
+
+/* ---------- Footer ---------- */
+footer {
+    margin: 0;
+    background-color: var(--secondary-color);
+    padding: 5px 1%;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+
+
+/* ---------- Breakpoints ---------- */
+
+@media screen and (max-width: 990px) {
+
+}
+
+@media screen and (max-width: 765px) {
+
+}
