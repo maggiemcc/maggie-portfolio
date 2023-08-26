@@ -40,11 +40,15 @@ nav ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 
 nav ul li {
     margin: 0 2%;
+}
+
+nav ul li:hover a {
+    font-weight: bold;
 }
 
 nav ul li a {
@@ -78,14 +82,13 @@ section:last-child {
 
 #about div {
     display: flex;
-    gap: 4%;
     margin: auto;
     max-width: 900px;
 }
 
 #about div p {
     max-width: 500px;
-    margin: auto;
+    margin: auto 2%;
 }
 
 /* --- WORK SECTION --- */
@@ -145,7 +148,7 @@ footer {
 
 
 
-/* ---------- Breakpoints ---------- */
+/* ---------- Breakpoints Tablet---------- */
 
 @media screen and (max-width: 990px) {
 
@@ -160,15 +163,36 @@ footer {
 
 }
 
+
+/* ---------- Breakpoints Phone ---------- */
+
 @media screen and (max-width: 765px) {
-     /* --- ABOUT SECTION --- */
-    /* #about div {
+    header {
         display: block;
-        margin: auto;
-        max-width: 900px;
         justify-content: center;
-        border: 1px solid red;
-    } */
+        text-align: center;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+    
+    nav ul li {
+        margin: 2%;
+    }
+
+
+    #about div {
+        display: block;
+    }
+    #about div img {
+        display: block;
+        margin: auto auto;
+    }
+    
+    #about div p {
+        margin: 4% auto;
+    }
 
      /* --- WORK SECTION --- */
      .projects {
