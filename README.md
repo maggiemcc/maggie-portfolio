@@ -10,7 +10,7 @@
 [Click to view my deployed portfolio GitHub Page](https://maggiemcc.github.io/maggie-portfolio/)
 
 ## Screenshot
-![](/assets/images/)
+![](/assets/images/screenshot.png)
 
 
 ## User Story
