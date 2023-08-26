@@ -58,6 +58,34 @@ section {
 }
 
 
+/* --- ABOUT SECTION --- */
+#about img {
+    max-height: 300px;
+    border-radius: 5%;
+}
+
+/* --- WORK SECTION --- */
+.projects {
+    display: grid;
+    grid-template-columns: 1fr repeat(3);
+}
+
+.projects section {
+    border: 1px solid red;
+    object-fit: contain;
+    width: 100%;
+
+}
+
+.projects section img {
+    width: 100%;
+}
+
+#lead {
+    grid-column: 1/span 3;
+}
+
+
 /* ---------- Footer ---------- */
 footer {
     margin: 0;
@@ -73,8 +101,12 @@ footer {
 
 @media screen and (max-width: 990px) {
 
+    /* --- WORK SECTION --- */
+    .projects {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
 }
 
-@media screen and (max-width: 765px) {
-
-}
+@media screen and (max-width: 765px) {}
