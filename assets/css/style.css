@@ -22,7 +22,8 @@ body {
 
 /* ---------- H1-H6 & P Elements ---------- */
 h1 {
-    font-size: 42px;
+    font-size: 50px;
+    font-family: 'Permanent Marker', cursive;
 }
 
 h2 {
@@ -43,13 +44,17 @@ p {
     font-size: 18px;
 }
 
+li, a {
+    font-size: 22px;
+}
+
 
 /* -------------- Header -------------- */
 header {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     margin: var(--primary-margin);
-    padding: 15px 1%;
+    padding: 4% 1%;
     display: grid;
     grid-template-columns: auto auto;
 }
@@ -89,6 +94,7 @@ main {
 
 section {
     padding-bottom: 5%;
+    margin-bottom: 3%;
     border-bottom: 3px solid var(--secondary-color);
 }
 
@@ -221,6 +227,21 @@ footer {
 
 @media screen and (max-width: 990px) {
 
+    header {
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav ul {
+        justify-content: center;
+        margin-top: var(--third-margin)
+    }
+
+    nav ul li {
+        margin: var(--third-margin);
+    }
+
     /* --- WORK SECTION --- */
     .projects {
         grid-template-columns: 1fr repeat(2);
@@ -236,21 +257,8 @@ footer {
 /* ---------- Breakpoints Phone ---------- */
 
 @media screen and (max-width: 765px) {
-    header {
-        display: block;
-        justify-content: center;
-        text-align: center;
-    }
 
-    nav ul {
-        justify-content: center;
-    }
-
-    nav ul li {
-        margin: var(--third-margin);
-    }
-
-
+    /* --- ABOUT SECTION --- */
     #about div {
         display: block;
     }
