@@ -101,6 +101,7 @@ section {
     margin-bottom: 3%;
     background-color: var(--primary-color);
     border-radius: 15px;
+    box-shadow: 10px 10px 8px rgb(18, 0, 78);
 }
 
 section:last-child {
@@ -266,6 +267,7 @@ footer {
     section {
         border-radius: 0;
         border-bottom: 3px solid var(--secondary-color);
+        box-shadow:none;
     }
 
     /* --- ABOUT SECTION --- */
