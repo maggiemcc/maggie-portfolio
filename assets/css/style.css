@@ -124,8 +124,8 @@ section:last-child {
 }
 
 #about p {
-  margin: var(--second-margin) var(--third-margin);
-  max-width: 500px;
+  margin: var(--second-margin) 3%;
+  max-width: 450px;
 }
 
 /* --- WORK SECTION --- */
