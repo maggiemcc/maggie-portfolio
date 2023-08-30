@@ -12,4 +12,4 @@ I created this portfolio project for potential employers to view. This repositor
 [Click to view my deployed portfolio GitHub Page](https://maggiemcc.github.io/maggie-portfolio/)
 
 ## Screenshot
-![](/assets/images/screenshot.png)
+![](/assets/images/project-screenshot.png)
