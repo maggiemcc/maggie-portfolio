@@ -5,10 +5,15 @@
   --third-color: #000;
   --fourth-color: transparent;
 
-  /* MARGINS */
+  /* MARGINS/PADDING */
   --primary-margin: 0px;
   --second-margin: auto;
   --third-margin: 2%;
+
+  --primary-padding: 2rem;
+
+  /* FONT */
+  --second-font: "Permanent Marker", cursive;
 }
 
 body {
@@ -22,13 +27,15 @@ body {
 /* ---------- h1-h6 & p, li, a Elements ---------- */
 h1 {
   font-size: 50px;
-  font-family: "Permanent Marker", cursive;
+  font-family: var(--second-font)
 }
 
 h2 {
-  font-size: 34px;
+  font-family: var(--second-font);
+  font-size: 35px;
   margin-bottom: var(--third-margin);
-  color: var(--third-color);
+  margin-bottom: 2rem;
+  color: var(--secondary-color);
 }
 
 h3 {
@@ -87,15 +94,11 @@ nav a {
 main {
   padding: 2%;
   margin: var(--second-margin);
-  background-color: var(--primary-color);
-}
-
-main {
   background-color: var(--fourth-color);
 }
 
 section {
-  padding: 2rem 2%;
+  padding: var(--primary-padding) 2%;
   margin-bottom: 3%;
   background-color: var(--primary-color);
   border-radius: 15px;
@@ -204,7 +207,7 @@ footer {
   margin: var(--primary-margin);
   background-color: transparent;
 
-  padding: 2rem 1%;
+  padding: var(--primary-padding) 1%;
   text-align: center;
   color: var(--primary-color);
 }
@@ -239,11 +242,12 @@ footer {
 /* ---------- Breakpoints Phone ---------- */
 
 @media screen and (max-width: 765px) {
-  main {
-    background-color: var(--primary-color);
-  }
 
   /* --- HEADER SECTION --- */
+  h1 {
+    margin-bottom: 1rem;
+  }
+
   nav ul {
     justify-content: center;
     display: block;
@@ -252,6 +256,12 @@ footer {
 
   nav li {
     margin: 4% var(--primary-margin);
+  }
+
+  /* --- MAIN SECTION --- */
+
+  main {
+    background-color: var(--primary-color);
   }
 
   section {
