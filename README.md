@@ -6,7 +6,7 @@
 - [Screenshot](#screenshot)
 
 ## Description
-I created this portfolio project for potential employers. This repository contains samples of my work so potential employers can view and assess my skills and be provided with my contact information.
+I created this portfolio project for potential employers to view. This repository provides my contact information and samples of my work to show the skills I have developed.
 
 ## Link
 [Click to view my deployed portfolio GitHub Page](https://maggiemcc.github.io/maggie-portfolio/)

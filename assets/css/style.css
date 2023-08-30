@@ -147,7 +147,7 @@ section:last-child {
     margin: var(--third-margin);
 }
 
-.project .title {
+.project-title {
     padding: 1rem;
     box-shadow: none;
 }
@@ -173,9 +173,6 @@ section:last-child {
 
 .project:first-child {
     grid-column: 1/span 3;
-    margin-right: var(--primary-margin);
-    margin-left: var(--primary-margin);
-
 }
 
 /* --- WORK SECTION --- */
